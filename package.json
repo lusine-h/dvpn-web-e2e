@@ -1,0 +1,26 @@
+{
+  "name": "dvpn-web-e2e",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "def": "codeceptjs def",
+    "test": "codeceptjs run --steps --debug --plugins allure",
+    "fix": "prettier --write src/"
+  },
+  "devDependencies": {
+    "@codeceptjs/configure": "^0.10.0",
+    "@codeceptjs/examples": "^1.2.1",
+    "@codeceptjs/ui": "^0.4.7",
+    "@types/node": "^18.11.4",
+    "codeceptjs": "^3.3.6",
+    "playwright": "^1.27.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "codeceptjs-assert": "^0.0.5",
+    "mixin": "^0.2.0",
+    "ts-mixer": "^6.0.1"
+  }
+}
